@@ -1,0 +1,87 @@
+body {
+  background: url("/src/img/back.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#hello {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 30%);
+  font-family: monospace;
+  font-size: 30px;
+  color: rgb(255, 255, 255); /*white text*/
+  font-weight: bold;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 30px;
+  color: rgb(255, 255, 255); /*white text*/
+  font-weight: bold;
+}
+
+.lead > p {
+  font-family: monospace;
+  font-size: 30px;
+  color: rgb(255, 255, 255); /*white text*/
+}
+.card-body > p {
+  font-family: monospace;
+}
+#van-logo {
+  border: 3px solid white;
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  transform: translate(-50%, -100%);
+  top: 50%;
+  left: 50%;
+}
+
+#social-media {
+  position: absolute;
+  transform: translate(-130%, 40%);
+  display: inline-flex;
+  top: 50%;
+  left: 50%;
+}
+
+.fab {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#social-media > a {
+  color: white;
+  text-decoration: none;
+}
+
+#social-media > a:hover {
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-link {
+  font-family: monospace;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+}
+
+.nav-link:hover {
+  font-family: monospace;
+  color: rgb(200, 200, 200);
+  font-size: 22px;
+}
+
+#header {
+  background-color: rgba(80, 80, 80, 0.45);
+  border-radius: 8px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.35);
+}
